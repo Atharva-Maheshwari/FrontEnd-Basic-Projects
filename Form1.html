@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
+    <link rel="stylesheet" href="Formstyle.css">
 </head>
 <body>
+    <div class="container">
    <form action="">
-       <h2>Payment Form</h2>
-       <p>Required Field are followed by *</p>
-       <h2>Contact Information</h2>
-       <p>Name: * <input type="text" name="Name" required></p>
+       <h1 class="main_heading">Payment Form</h2>
+       <hr>
+       <h2>User Information</h2>
+       <p>Name: * <input type="text" name="Name" required placeholder="Enter Your Name"></p>
        <fieldset>
            <legend>Gender *</legend>
         <p>
@@ -40,6 +42,7 @@
        </p>
        <p>CVV: * <input type="password" name="cvv" id="cvv" required></p>
        <input type="submit" value="Pay Now" >
-   </form> 
+   </form>
+</div> 
 </body>
 </html>
