@@ -1,3 +1,7 @@
+div{
+    text-align: center;
+}
+
 body{
     background:  linear-gradient(to bottom right,purple, rgb(201, 132, 28)) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -7,8 +11,8 @@ body{
 }
 
 h1{
-    color: white;
-    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    color: #ffffff;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
     padding: 30px;
     font-size: 80px;
     font-weight: 700;
@@ -17,3 +21,45 @@ h1{
     margin: 0px;
 }
 
+form{
+    display: inline-block;
+    text-align: left;
+    padding: 30px;
+    overflow: hidden;
+}
+
+::placeholder{
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    color: white;
+    background: transparent;
+    background-color: rgba(0,0,0,0.4) ;
+    font-size: 15px;
+    margin: 10px;
+    width: 960px ;
+    padding: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    float: right;
+    margin: 10px;
+    background : transparent;
+    background-color: rgba(0,0,0,0.4);
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: lightgrey;
+}
