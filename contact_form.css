@@ -17,17 +17,3 @@ h1{
     margin: 0px;
 }
 
-form{
-    margin: auto;
-    padding: 30px;
-    width: 900px;
-    height: 450px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box; 
-    overflow: hidden; 
-}
-
