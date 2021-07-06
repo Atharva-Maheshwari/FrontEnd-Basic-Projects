@@ -1,0 +1,33 @@
+body{
+    background:  linear-gradient(to bottom right,purple, rgb(201, 132, 28)) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+form{
+    margin: auto;
+    padding: 30px;
+    width: 900px;
+    height: 450px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    overflow: hidden; 
+}
+
